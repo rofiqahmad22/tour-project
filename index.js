@@ -5,7 +5,7 @@ tourFormElement.addEventListener("submit", (event) => {
   event.preventDefault();
   const tourInputTextElement = document.getElementById("tour-input-text");
   const tourText = tourInputTextElement.value;
-  addNewTodo(tourText);
+  addNewTour(tourText);
 });
 
 function addNewTour(tourText) {
