@@ -8,7 +8,7 @@ tourFormElement.addEventListener("submit", (event) => {
   addNewTodo(tourText);
 });
 
-function addNewTodo(tourText) {
+function addNewTour(tourText) {
   const newTourElement = document.createElement("li");
   const newTourTextNode = document.createTextNode(tourText);
 
